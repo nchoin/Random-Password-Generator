@@ -2,8 +2,8 @@
 1. create prompts for password criteria including length and types of characters - will use prompts and confirms.
 2. Create arrays containing all the possible characters for the password. Unsure how I will access these and incorporate into the function - research possibilities
 2. Need to collect the input from prompts - use if...else statements possibly for when inputs are true vs false
-3. Need to take the true choices and some how combine them. Research this. HAs to a way to reference and pull the info from the arrays. Do I need an Object to store the arrays? Unsure.
-4. Need to connect the variable created for password length and apply it to the character arrays. Will I use mathFloor(math.Random()* length of the passwordLength so it would be passwordLength.length or the arrays? More research needed)
+3. Need to take the true choices and somehow combine them. Research this. HAs to be a way to reference and pull the info from the arrays. Do I need an Object to store the arrays? Unsure.
+4. Need to connect the variable created for password length and apply it to the character arrays. Will I use mathFloor(math.Random()* length of the passwordLength so it would be passwordLength.length or the arrays? More research needed
 5. Final step is to store the password generated adn return that variable. I see passwordText.value = password so I'm assuming I will connect there. 
 Many gaps between what I have to do and what I know how to do and what parts of javascript to use. Lots of research and support needed. 
 */
