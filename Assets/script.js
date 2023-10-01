@@ -11,7 +11,7 @@ Many gaps between what I have to do and what I know how to do and what parts of 
 var passwordLength = 8;
 var choiceArr = [];
 //store all the possible characters I can use in my password in the choiceArr
-var lowerCaseArr = ["a", "b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+var lowerCaseArr = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
 var upperCaseArr = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 var numbersArr = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 var specCharArr = ["!", "@", "#", "$", "%", "*", "(", ")", "_", "+", "=", "?", ">", "<"];
@@ -39,14 +39,16 @@ function writePassword() {
     }
 }
 
-function generatePassword() {}
+function generatePassword() {
 //I need to create the password based on the prompt responses
-var password = "";
-for(var i = 0; i < passwordLength; i++) {
+  var password = "";
+  for(var i = 0; i < passwordLength; i++) {
   var randomIndex = Math.floor(Math.random() * choiceArr.length);
   password = password + choiceArr[randomIndex];
+  }
+  return password
 }
-//return password
+
 
   //Prompt to determine length of password. parseInt converts the response from a string to a number
 function getPrompts(){
@@ -77,23 +79,6 @@ function getPrompts(){
   return true;
   
 }
-//everything above is working as of sept 30
-  //get random index from array of options and pull them from the arrays above
-/*var lowerCaseIndex = Math.floor(Math.random() * lowerCase.length);
-var lowerChoices = lowerCase[lowerCaseIndex];
-var upperCaseIndex = Math.floor(Math.random() * upperCase.length);
-var upperChoices = upperCase[upperCaseIndex];
-var numbersIndex = Math.floor(Math.random() * numbers.length);
-var numbersChoices = numbers[numbersIndex];
-var specCharIndex = Math.floor(Math.random() * specChar.length);
-var specCharChoices = specChar[specCharIndex];
-
-  if (upperCaseInput === true) {
-    return console.log(upperChoices);
-    
-  }*/
- 
-
 
   // return //generated password
 
