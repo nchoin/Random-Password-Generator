@@ -19,6 +19,7 @@ N/A
 ## Usage
 
 To use the random password generator - click the link provided. Click on the generate button, answer the prompts regarding length of characters and types of characters. The new password will be generated in the box. This process can be repeated multiple times. 
+Here is a link to the <a href="https://nchoin.github.io/Random-Password-Generator/" target="_blank">random password generator</a> I created. 
 
 <img width="1578" alt="Screenshot 2023-09-30 at 8 51 36 PM" src="https://github.com/nchoin/Random-Password-Generator/assets/139597297/122d32e3-f0c3-453f-92c4-66a27625643b">
 
@@ -27,8 +28,8 @@ To use the random password generator - click the link provided. Click on the gen
 
 Thank to Louis Taylor. Our initial discussions about the approach to creating the password helped me formulate my plan which is outlined in the JS script.
   
-Thank you Daniel Vega, who shared his approach to creating random passwords. You helped me figure out how to connect the arrays of characters with the user's input selections. You gave the JS vocabulary I need to finish my ideas. I appreciate your willingness to share your thoughts. https://www.youtube.com/@danielvega545
-This is a link to <a href = "https://www.google.com/search?q=javascript+random+password+generator+with+prompt&oq=javascript+random+password+generator+with+prompt&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCggCEAAYhgMYigUyCggDEAAYhgMYigXSAQkzMDU0MmowajSoAgCwAgA&sourceid=chrome&ie=UTF-8" target = "_blank">my Google Search.</a> I reviewed many of the results to find an approach that was similar to my thought process.
+Thank you Daniel Vega, who shared his approach to creating random passwords. You helped me figure out how to connect the arrays of characters with the user's input selections. You gave the JS vocabulary I need to finish my ideas. I appreciate your willingness to share your thoughts. <a href = "https://www.youtube.com/@danielvega545" target="_blank">This is his YouTube channel.</a>
+This is a link to <a href = "https://www.google.com/search?q=javascript+random+password+generator+with+prompt&oq=javascript+random+password+generator+with+prompt&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCggCEAAYhgMYigUyCggDEAAYhgMYigXSAQkzMDU0MmowajSoAgCwAgA&sourceid=chrome&ie=UTF-8" target="_blank">my Google Search.</a> I reviewed many of the results to find an approach that was similar to my thought process.
 
 ## License
 
