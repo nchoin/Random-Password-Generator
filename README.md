@@ -2,12 +2,9 @@
 
 ## Description
 
-Program to create a random password based on prompts. Using Starter Code from class.
+The purpose of this program was to work the starter code of CSS and HTML and to the script.js to write a program that would help the user create random password. The user can create a password between 8 - 128 characters long. Once this decision is made, the user can decide what type of characters (special characters, numbers, uppercase or lowercase letters) will make up the password. Once the user responds to the prompts, the password is generated and displayed on the screen for the user to record. 
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+In my JS I started with notes recording the steps I needed to complete this task. In the notes I recorded where I had questions about how to complete. I searched for other random password generators to find out if anyone one else had the same ideas for approach that I did and could possible help me with the gaps in my knowledge base. In the Credits section you will see them credited. I learned more about using arrays within a function and the logical thought process for the program - What has to happen first in order for the next step to execute. I learned that I have much more to learn and will spend even more time building a JS vocabulary foundation so I know what is possible. I learned that programmers are willing to share their ideas and approaches for which I am most grateful. 
 
 ## Table of Contents (Optional)
 
@@ -21,85 +18,17 @@ N/A
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+To use the random password generator - click the link provided. Click on the generate button, answer the prompts regarding length of characters and types of characters. The new password will be generated in the box. This process can be repeated multiple times. 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
+<img width="1578" alt="Screenshot 2023-09-30 at 8 51 36 PM" src="https://github.com/nchoin/Random-Password-Generator/assets/139597297/122d32e3-f0c3-453f-92c4-66a27625643b">
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-Badges aren't necessary, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute to it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
-Now fill in the details as much as you can, referring to the following tips as you go:
-
-Remember that # in markdown is the top-level header, which is typically the title of the page. You can create your own title. For our example purposes, we will use “Prework Study Guide Webpage”.
-  # Prework Study Guide Webpage
-Next, ## in markdown is a subheading. We have several subheadings in this README.
-
-For ## Description, write a short description of the Prework Study Guide Webpage. Use the guiding questions to help you.
-
-We don't have a long README, so you can delete the ## Table of Contents section.
-
-For ## Installation, we don’t have any steps to take to install anything for our webpage, so write “N/A” for this section.
-
-For ## Usage, write a short paragraph about how this Prework Study Guide can be used. For example, you can write about how each section contains notes about a certain topic, like HTML, CSS, JavaScript, Git. And if we open the DevTools console, we can see the JavaScript running. It will list the topics we learned from prework and choose one topic for us to study first. For now, we don't need to add an image, so you can delete that part.
-
-For ## Credits, we didn’t collaborate with others nor did we use any third-party assets or tutorials, so we can write “N/A”.
-
-For ## License, keep the MIT license that we chose when we first created the repository.
-
-The rest of the sections don’t apply to us, but feel free to take a look.
-
-Code Review
-How did you do? Let’s take a moment to review what this might look like. Review the following example of the project README and compare your results:
-
-# Prework Study Guide Webpage
-
-## Description
-
-This Prework Study Guide was created for boot camp students who were going through the Prework. It contains notes on HTML, CSS, Git, and JavaScript.
-
-## Installation
-
-N/A
-
-## Usage
-
-To use this Prework Study Guide, you can review the notes in each section. For suggestions on what to study first, open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser. There you will see a list of topics we learned from the prework along with a suggestion on which topic to study first.
-
-## Credits
-
-N/A
+Thank to Louis Taylor. Our initial discussions about the approach to creating the password helped me formulate my plan which is outlined in the JS script.
+  
+Thank you Daniel Vega, who shared his approach to creating random passwords. You helped me figure out how to connect the arrays of characters with the user's input selections. You gave the JS vocabulary I need to finish my ideas. I appreciate your willingness to share your thoughts. https://www.youtube.com/@danielvega545
+This is a link to <a href = "https://www.google.com/search?q=javascript+random+password+generator+with+prompt&oq=javascript+random+password+generator+with+prompt&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCggCEAAYhgMYigUyCggDEAAYhgMYigXSAQkzMDU0MmowajSoAgCwAgA&sourceid=chrome&ie=UTF-8" target = "_blank">my Google Search.</a> I reviewed many of the results to find an approach that was similar to my thought process.
 
 ## License
 
